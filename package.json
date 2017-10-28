@@ -1,0 +1,24 @@
+{
+  "name": "realtimespeechrecognition",
+  "version": "1.0.0",
+  "description": "A NodeJS thing I wrote to take advantage of Google's Full-Duplex Speech Recognition API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonjesus/RealTimeSpeechRecognition.git"
+  },
+  "author": "Tucker Osman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonjesus/RealTimeSpeechRecognition/issues"
+  },
+  "homepage": "https://github.com/lemonjesus/RealTimeSpeechRecognition#readme",
+  "dependencies": {
+    "node-record-lpcm16": "^0.3.0",
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0"
+  }
+}
